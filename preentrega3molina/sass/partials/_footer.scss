@@ -1,0 +1,21 @@
+@use "./variables";
+
+.footer {
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	position: sticky;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.parrafo {
+	img {
+		width: 400px;
+		border-radius: 5px;
+		float: left;
+		margin-right: 15px;
+		text-align: justify;
+	}
+}

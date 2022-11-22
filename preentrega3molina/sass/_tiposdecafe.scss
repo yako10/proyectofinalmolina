@@ -1,0 +1,21 @@
+@use "./partials/variables";
+
+
+.tiposdecafe {
+    display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	img {
+		display: flex ;
+		justify-content: center; 
+		align-items: center; 
+		max-width: 100%; 
+		opacity: 50%; 
+		min-height: 500px; 
+		box-shadow: 1px 5px 25px; 
+		border-radius: 10%; 
+		padding: 20px; 
+    }
+
+}
+	
